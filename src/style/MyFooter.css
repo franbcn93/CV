@@ -1,0 +1,151 @@
+/* FOOTER */
+footer {
+  background: #16222a;
+  /* background: -webkit-linear-gradient(59deg, #343a40, #16222a);
+  background: linear-gradient(59deg, #343a40, #adb5bd); */
+  color: white;
+  margin-top: -218px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #fa944b;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #ffffff;
+}
+
+.footer-middle {
+  padding-top: 1em;
+  color: white;
+  text-align: center;
+}
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/* footer social icons */
+.social-network a.icoFacebook:hover {
+  background-color: #3b5998;
+}
+
+.social-network a.icoInstagram:hover {
+  background-color: #f9844a;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #f9c74f;
+}
+
+.social-network a.icoMobile:hover {
+  background-color: #2ec4b6;
+}
+
+.social-network a.icoEnvelope:hover {
+  background-color: #ff7aa2;
+}
+
+.social-network a.icoEnvelope:hover i,
+.social-network a.icoMobile:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoInstagram:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44bcdd;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 15px;
+  margin: 10px 10px 10px 10px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  font-size: 34px;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #f9f9f9;
+}
+
+@media screen and (max-width: 425px) {
+  .social-circle li a {
+    margin: 10px 2px;
+  }
+  .myPadding {
+    padding-bottom: 16px;
+  }
+  .sendMsn,
+  .infForm {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+/* @media screen and (max-width: 775px) {
+  footer {
+    margin-top: -218px;
+  }
+} */
+/* @media screen and (min-width: 992px) {
+    .knowMe {
+      padding: 10px 0px 20px 73px;
+    }
+  } */

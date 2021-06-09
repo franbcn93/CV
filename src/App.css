@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  box-sizing: border-box;
+}
+
+.Menu {
+  position: fixed;
+  top: 0;
+  padding: 16px;
+  background-color: #16222a;
+  display: flex;
+  left: 0;
+  right: 0;
+  z-index: 45;
+}
+
+.Menu a {
+  text-decoration: none;
+  color: #fff;
+  flex: 1;
+}
+
+.Menu a:hover {
+  color: #ec9f05;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  background-size: cover !important;
+}
+
+.pageRoot {
+  padding: 32px;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 500px) {
+  .Menu a {
+    font-size: 21px;
+  }
+}

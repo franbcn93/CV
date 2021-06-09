@@ -1,0 +1,18 @@
+.myText {
+  color: black;
+  font-size: 160%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .myText {
+    font-size: 120%;
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .myText {
+    margin: 10px 10px 76px 10px;
+  }
+}

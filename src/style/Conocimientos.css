@@ -1,0 +1,122 @@
+.animation {
+  animation: miAnimacion 6s linear 0s infinite;
+  transition: all 2s;
+}
+
+@keyframes miAnimacion {
+  from {
+    color: red;
+  }
+  to {
+    color: yellow;
+  }
+}
+
+.animation2 {
+  animation: miAnimacion2 6s linear 0s 1;
+}
+
+@keyframes miAnimacion2 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+.paddingTop {
+  padding: 32px;
+}
+
+.skills {
+  color: black;
+}
+
+.myCard {
+  background-color: white;
+  box-shadow: 10px 14px 2px 0 rgba(0, 0, 0, 0.2);
+  min-width: 93px;
+  margin: 2px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 520px) {
+  .paddingTop {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    padding: 11px;
+    max-width: 227px;
+  }
+  .myCard {
+    max-width: 200px;
+    padding: 0;
+  }
+  .skills {
+    color: black;
+    font-size: 1.2rem;
+  }
+}
+
+/* Animation property */
+h2.skill1 {
+  animation: wiggle 3s linear infinite;
+  animation-delay: 4s;
+}
+h2.skill2 {
+  animation-delay: 4s;
+  animation: wiggle2 3s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+@keyframes wiggle2 {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(15deg);
+  }
+  20% {
+    transform: rotateZ(-10deg);
+  }
+  25% {
+    transform: rotateZ(-0deg);
+  }
+  30% {
+    transform: rotateZ(-6deg);
+  }
+  35% {
+    transform: rotateZ(4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}

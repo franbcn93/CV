@@ -1,0 +1,58 @@
+.sendMsn,
+.infForm {
+  text-align: center;
+  padding: 20px;
+}
+
+.myPadding {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 3px 0;
+  display: inline-block;
+  border: 2px solid #ec9f05;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.infForm {
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 0.9em;
+  font-weight: bold;
+  margin-top: -162px;
+  text-shadow: 4px 5px black;
+  color: #ec9f05;
+}
+
+.contact-form {
+  /* background-color: #bee1e6; */
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.myBtn {
+  background-color: #ec9f05;
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 16px;
+  }
+
+  .myPadding {
+    padding: 0;
+    margin: 0;
+    border: 0px solid #ccc;
+  }
+
+  .infForm {
+    font-size: 36px;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+}
