@@ -24,7 +24,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="Menu">
-          <a href="/" onClick={() => this.handlePageChange(0)}>
+          <a href="#Inicio" onClick={() => this.handlePageChange(0)}>
             Inicio
           </a>
           <a href="#Conocimientos" onClick={() => this.handlePageChange(1)}>
