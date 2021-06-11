@@ -1,5 +1,5 @@
 import React from "react";
-import imagen from "../img/imagen3.jpg";
+import imagen from "../img/imagen.jpg";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 import "../style/Conocimientos.css";

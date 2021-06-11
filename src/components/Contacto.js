@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import "../style/Contacto.css";
 
-import imagen7 from "../img/imagen8.jpg";
+import imagen7 from "../img/imagen5_2.jpg";
 import MyFooter from "./MyFooter";
 
 export default function Contacto() {

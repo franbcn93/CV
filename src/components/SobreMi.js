@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import imagen3 from "../img/imagen3_1.gif";
+import imagen3 from "../img/imagen4_4.jpg";
 import "../style/SobreMi.css";
 import { sobreMi, adjectives, sentence } from "./Text";
 
